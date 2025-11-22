@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "gitsafe-backup"]
+	url = git://gitsafe:5418/backup.git
+	fetch = +refs/heads/*:refs/remotes/gitsafe-backup/*
+	skipFetchAll = true
+[branch "main"]
+	vscode-merge-base = origin/main
+[remote "origin"]
+	url = https://github.com/abhighali79/Portfolio.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
