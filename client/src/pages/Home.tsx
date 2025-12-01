@@ -24,7 +24,6 @@ export default function Home() {
     { name: "Express.js", icon: SiExpress },
     { name: "MongoDB", icon: SiMongodb },
     { name: "SQL", icon: Database },
-    { name: "PL/SQL", icon: Database },
     { name: "MySQL", icon: SiMysql },
     { name: "Bootstrap", icon: SiBootstrap },
     { name: "Tailwind CSS", icon: SiTailwindcss },
@@ -32,11 +31,7 @@ export default function Home() {
     { name: "GitHub", icon: SiGithub },
     { name: "VS Code", icon: Code },
     { name: "Eclipse", icon: SiEclipseide },
-    { name: "Postman", icon: SiPostman },
-    { name: "OOPs", icon: BookOpen },
-    { name: "DBMS", icon: Database },
-    { name: "SDLC", icon: Workflow },
-    { name: "Agile", icon: Workflow },
+    { name: "Postman", icon: SiPostman }
   ];
 
   const projects = [
