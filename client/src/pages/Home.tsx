@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 import { Database, Coffee, BookOpen, Workflow, Code } from "lucide-react";
 import { SiJavascript, SiMongodb, SiReact, SiNodedotjs, SiExpress, SiTailwindcss, SiBootstrap, SiMysql, SiHtml5, SiCss3, SiGithub, SiGit, SiEclipseide, SiPostman } from "react-icons/si";
 import collegeErpImage from '@assets/generated_images/College_ERP_dashboard_mockup_968d14a7.png';
-import employeeManagementImage from '@assets/generated_images/Employee_management_system_interface_8eff1c74.png';
+import employeeManagementImage from '@assets/attached_assets/generated_images/E-commerce_website_mockup_30d475ce';
 import ecommerceImage from '@assets/generated_images/E-commerce_website_mockup_30d475ce.png';
 
 export default function Home() {
