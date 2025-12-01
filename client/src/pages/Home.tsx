@@ -135,13 +135,13 @@ export default function Home() {
       
       <ContactSection
         email="abhighali79@gmail.com"
-        githubUrl="https://github.com"
+        githubUrl="https://github.com/abhighali79"
         linkedinUrl="https://www.linkedin.com/in/abhishek-ghali/"
       />
       
       <Footer
         name="Abhishek Suresh Ghali"
-        githubUrl="https://github.com"
+        githubUrl="https://github.com/abhighali79"
         linkedinUrl="https://www.linkedin.com/in/abhishek-ghali/"
         email="abhighali79@gmail.com"
       />
