@@ -49,12 +49,7 @@ export default function HeroSection({ name, role, tagline }: HeroSectionProps) {
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
           <div className="order-1 lg:order-1 space-y-8 animate-fade-in">
             <div className="inline-block">
-              {/* <div className="px-4 py-2 rounded-full bg-primary/10 border border-primary/20 backdrop-blur-sm"> */}
-              <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden">
-
-                <p className="text-sm text-primary font-medium" data-testid="text-trusted">
-                  Full-Stack Developer
-                </p>
+           <div className="px-4 py-2 rounded-full bg-primary/10 border border-primary/20 backdrop-blur-sm">
               </div>
             </div>
             
