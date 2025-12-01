@@ -15,7 +15,7 @@ import ecommerceImage from '@assets/generated_images/E-commerce_website_mockup_3
 
 export default function Home() {
   const skills = [
-    { name: "Java", icon: SiJava },
+    { name: " core Java", icon: Coffee },
     { name: "JavaScript", icon: SiJavascript },
     { name: "HTML5", icon: SiHtml5 },
     { name: "CSS3", icon: SiCss3 },
