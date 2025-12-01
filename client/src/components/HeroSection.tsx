@@ -104,7 +104,7 @@ export default function HeroSection({ name, role, tagline }: HeroSectionProps) {
               <Button
                 size="icon"
                 variant="ghost"
-                onClick={() => window.open('https://github.com', '_blank')}
+                onClick={() => window.open('https://github.com/abhighali79', '_blank')}
                 data-testid="button-github"
               >
                 <Github className="h-5 w-5" />
@@ -112,7 +112,7 @@ export default function HeroSection({ name, role, tagline }: HeroSectionProps) {
               <Button
                 size="icon"
                 variant="ghost"
-                onClick={() => window.open('https://linkedin.com', '_blank')}
+                onClick={() => window.open('https://www.linkedin.com/in/abhishek-ghali/', '_blank')}
                 data-testid="button-linkedin"
               >
                 <Linkedin className="h-5 w-5" />
