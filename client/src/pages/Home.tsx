@@ -6,6 +6,7 @@ import ProjectsSection from "@/components/ProjectsSection";
 import ExperienceSection from "@/components/ExperienceSection";
 import EducationSection from "@/components/EducationSection";
 import ContactSection from "@/components/ContactSection";
+import HexBackground from "@/components/HexBackground";
 import Footer from "@/components/Footer";
 import { Database, Coffee, BookOpen, Workflow, Code } from "lucide-react";
 import { SiJavascript, SiMongodb, SiReact, SiNodedotjs, SiExpress, SiTailwindcss, SiBootstrap, SiMysql, SiHtml5, SiCss3, SiGithub, SiGit, SiEclipseide, SiPostman } from "react-icons/si";
@@ -112,39 +113,82 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen">
-      <Navbar />
+//     <div className="min-h-screen">
+//       <Navbar />
       
-      <HeroSection
-        name="Abhishek Suresh Ghali"
-        role="Full-Stack Developer (MERN)"
-        tagline="Pursuing a challenging and growth-oriented career in software development. Specialized in MERN stack with expertise in Core Java, SQL, and modern web technologies."
-      />
+//       <HeroSection
+//         name="Abhishek Suresh Ghali"
+//         role="Full-Stack Developer (MERN)"
+//         tagline="Pursuing a challenging and growth-oriented career in software development. Specialized in MERN stack with expertise in Core Java, SQL, and modern web technologies."
+//       />
       
-      <AboutSection
-        description="As a fresh Computer Science Engineering graduate with a strong foundation in full-stack development, I'm passionate about creating efficient web solutions. My internship experiences at Robowaves and Pranaksh Technologies have equipped me with practical skills in MERN stack development, database management, and API integration. I'm eager to contribute to organizational growth while continuously learning and evolving as a developer."
-      />
+//       <AboutSection
+//         description="As a fresh Computer Science Engineering graduate with a strong foundation in full-stack development, I'm passionate about creating efficient web solutions. My internship experiences at Robowaves and Pranaksh Technologies have equipped me with practical skills in MERN stack development, database management, and API integration. I'm eager to contribute to organizational growth while continuously learning and evolving as a developer."
+//       />
       
-      <SkillsSection skills={skills} />
+//       <SkillsSection skills={skills} />
       
-      <ProjectsSection projects={projects} />
+//       <ProjectsSection projects={projects} />
       
-      <ExperienceSection experiences={experiences} />
+//       <ExperienceSection experiences={experiences} />
       
-      <EducationSection education={education} />
+//       <EducationSection education={education} />
       
-      <ContactSection
-        email="abhighali79@gmail.com"
-        githubUrl="https://github.com/abhighali79"
-        linkedinUrl="https://www.linkedin.com/in/abhishek-ghali/"
-      />
+//       <ContactSection
+//         email="abhighali79@gmail.com"
+//         githubUrl="https://github.com/abhighali79"
+//         linkedinUrl="https://www.linkedin.com/in/abhishek-ghali/"
+//       />
       
-      <Footer
-        name="Abhishek Suresh Ghali"
-        githubUrl="https://github.com/abhighali79"
-        linkedinUrl="https://www.linkedin.com/in/abhishek-ghali/"
-        email="abhighali79@gmail.com"
-      />
+//       <Footer
+//         name="Abhishek Suresh Ghali"
+//         githubUrl="https://github.com/abhighali79"
+//         linkedinUrl="https://www.linkedin.com/in/abhishek-ghali/"
+//         email="abhighali79@gmail.com"
+//       />
+//     </div>
+//   );
+// }
+
+     <div className="relative min-h-screen bg-slate-950 text-white overflow-hidden">
+      {/* Hex animated background on the left side */}
+      <HexBackground />
+
+      {/* Main content above the background */}
+      <div className="relative z-10">
+        <Navbar />
+        
+        <HeroSection
+          name="Abhishek Suresh Ghali"
+          role="Full-Stack Developer (MERN)"
+          tagline="Pursuing a challenging and growth-oriented career in software development. Specialized in MERN stack with expertise in Core Java, SQL, and modern web technologies."
+        />
+        
+        <AboutSection
+          description="As a fresh Computer Science Engineering graduate with a strong foundation in full-stack development, I'm passionate about creating efficient web solutions. My internship experiences at Robowaves and Pranaksh Technologies have equipped me with practical skills in MERN stack development, database management, and API integration. I'm eager to contribute to organizational growth while continuously learning and evolving as a developer."
+        />
+        
+        <SkillsSection skills={skills} />
+        
+        <ProjectsSection projects={projects} />
+        
+        <ExperienceSection experiences={experiences} />
+        
+        <EducationSection education={education} />
+        
+        <ContactSection
+          email="abhighali79@gmail.com"
+          githubUrl="https://github.com/abhighali79"
+          linkedinUrl="https://www.linkedin.com/in/abhishek-ghali/"
+        />
+        
+        <Footer
+          name="Abhishek Suresh Ghali"
+          githubUrl="https://github.com/abhighali79"
+          linkedinUrl="https://www.linkedin.com/in/abhishek-ghali/"
+          email="abhighali79@gmail.com"
+        />
+      </div>
     </div>
   );
 }
