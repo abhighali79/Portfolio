@@ -34,12 +34,7 @@ export default function SkillsSection({ skills }: SkillsSectionProps) {
       'Postman': '#FF6C37',
       'Core Java': '#007396',
       'SQL': '#4479A1',
-      'PL/SQL': '#F80000',
-      'VS Code': '#007ACC',
-      'OOPs': '#f59e0b',
-      'DBMS': '#f59e0b',
-      'SDLC': '#f59e0b',
-      'Agile': '#f59e0b',
+      'VS Code': '#007ACC'
     };
     return colorMap[skillName] || '#f59e0b';
   };
