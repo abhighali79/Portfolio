@@ -48,10 +48,10 @@ export default function HeroSection({ name, role, tagline }: HeroSectionProps) {
       <div className="container relative z-10 px-6 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
           <div className="order-1 lg:order-1 space-y-8 animate-fade-in">
-            <div className="inline-block">
-           <div className="px-4 py-2 rounded-full bg-primary/10 border border-primary/20 backdrop-blur-sm">
-              </div>
-            </div>
+            {/* <div className="inline-block">
+           {/* <div className="px-4 py-2 rounded-full bg-primary/10 border border-primary/20 backdrop-blur-sm">
+              </div> */}
+            </div> */}
             
             <div className="space-y-4">
               <h1 
