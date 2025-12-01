@@ -32,7 +32,7 @@ export default function SkillsSection({ skills }: SkillsSectionProps) {
       'GitHub': '#181717',
       'Eclipse': '#2C2255',
       'Postman': '#FF6C37',
-      'Core Java': '#007396',
+      'Java': '#007396',
       'SQL': '#4479A1',
       'VS Code': '#007ACC'
     };
