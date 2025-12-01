@@ -66,7 +66,7 @@ export default function Navbar() {
             className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent hover-elevate active-elevate-2 px-2 py-1 rounded-md transition-all"
             data-testid="button-logo"
           >
-            ASG
+            AG
           </button>
 
           <div className="hidden md:flex items-center gap-8">
